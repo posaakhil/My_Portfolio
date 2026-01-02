@@ -1,9 +1,0 @@
-// Minimal interactivity: nav toggle, scroll spy, role rotator, form microinteraction
-document.addEventListener('DOMContentLoaded', ()=>{
-  document.getElementById('year').textContent = new Date().getFullYear();
-  initMenu(); initScrollSpy(); initRoleRotator(); initContactForm();
-});
-function initMenu(){const btn=document.getElementById('menuBtn'),nav=document.getElementById('mainNav');if(!btn) return;btn.addEventListener('click',()=>{nav.style.display = nav.style.display==='flex'? '': 'flex';});document.querySelectorAll('.nav-link').forEach(a=>a.addEventListener('click',()=>{if(window.innerWidth<720) document.getElementById('mainNav').style.display='';}));}
-function initScrollSpy(){const sections=document.querySelectorAll('main section');const links=document.querySelectorAll('.nav-link');const obs=new IntersectionObserver((ents)=>{ents.forEach(e=>{const id=e.target.id;const link=document.querySelector('.nav-link[href="#'+id+'"]');if(e.isIntersecting){links.forEach(l=>l.classList.remove('active')); if(link) link.classList.add('active');}});},{threshold:0.45});sections.forEach(s=>obs.observe(s));}
-function initRoleRotator(){const roles=['Production Support Engineer','Application Support Engineer','Cloud & DevOps Enthusiast','System Operations Engineer','Technical Support Engineer'];const el=document.getElementById('roleText');let i=0;setInterval(()=>{el.classList.remove('fade');setTimeout(()=>{el.textContent=roles[i%roles.length];el.classList.add('fade');i++;},200);},2600);} 
-function initContactForm(){const f=document.getElementById('contactForm');if(!f) return;f.addEventListener('submit',(e)=>{e.preventDefault();const btn=f.querySelector('button[type=submit]');btn.disabled=true;btn.textContent='Sending...';setTimeout(()=>{btn.textContent='Sent ✓';setTimeout(()=>{btn.disabled=false;btn.textContent='Send Message';f.reset();},1200);},900);});}
