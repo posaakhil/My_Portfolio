@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posa Venkata Akhil | Production Support Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/96/000000/cloud.png">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="neon-circle"></div>
+                <h2 class="loading-text">Posa Venkata Akhil</h2>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <p class="loading-subtitle">Initializing Systems...</p>
+        </div>
+    </div>
+
+    <!-- Particle Background Canvas -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AKHIL.</span>
+                <div class="logo-glow"></div>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">HOME</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-glow">3+ Years Experience</span>
+                    <span class="badge-domain">Healthcare + Financial Domains</span>
+                </div>
+                <h1 class="hero-name">POSA VENKATA <span class="neon-text">AKHIL</span></h1>
+                <div class="role-animation">
+                    <h2 class="role-title">I am a 
+                        <span class="rotating-roles">
+                            <span class="role">Production Support Engineer</span>
+                            <span class="role">Application Support Engineer</span>
+                            <span class="role">Cloud & DevOps Support Engineer</span>
+                            <span class="role">System Operations Engineer</span>
+                            <span class="role">Technical Support Engineer</span>
+                        </span>
+                    </h2>
+                </div>
+                <p class="hero-tagline">"Ensuring high-availability, secure, reliable and mission-critical cloud environments."</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">HIRE ME</a>
+                    <a href="#contact" class="btn btn-secondary">VIEW RESUME</a>
+                    <a href="https://www.linkedin.com/in/posavenkataakhil" target="_blank" class="btn btn-outline">LINKEDIN</a>
+                </div>
+            </div>
+            <div class="hero-graphics">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                    <div class="shape shape-4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About <span class="neon-text">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">I am a highly capable <span class="highlight">L2 Production & Application Support Engineer</span> with over 3 years of experience in ensuring the stability and reliability of mission-critical systems across healthcare and financial domains.</p>
+                    <p>My expertise spans <span class="highlight">AWS cloud infrastructure</span>, comprehensive monitoring solutions, and incident management following <span class="highlight">ITIL best practices</span>. I thrive in high-pressure environments where quick decision-making and systematic troubleshooting are essential.</p>
+                    <p>Passionate about <span class="highlight">Cyber Security</span> and <span class="highlight">Generative AI</span>. I continuously explore how emerging technologies can enhance operational efficiency and automation in production support.</p>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h3 class="stat-title">Production Support</h3>
+                            <p class="stat-desc">3+ years ensuring mission-critical systems maintain 99.9% uptime</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h3 class="stat-title">AWS & Cloud</h3>
+                            <p class="stat-desc">Deep expertise in AWS infrastructure troubleshooting and optimization</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3 class="stat-title">Monitoring & RCA</h3>
+                            <p class="stat-desc">Proactive monitoring and comprehensive root cause analysis</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3 class="stat-title">Cross-Team Collaboration</h3>
+                            <p class="stat-desc">Seamless coordination with Dev, QA, and DevOps teams</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Summary -->
+    <section class="section summary">
+        <div class="container">
+            <h2 class="section-title">Professional <span class="neon-text">Summary</span></h2>
+            <div class="summary-content">
+                <div class="summary-card glass-card">
+                    <div class="summary-list">
+                        <div class="summary-item">
+                            <div class="summary-icon">
+                                <i class="fas fa-user-shield"></i>
+                            </div>
+                            <p>L2 Production Support Engineer</p>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-icon">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                            </div>
+                            <p>AWS Cloud Infrastructure Troubleshooting</p>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-icon">
+                                <i class="fas fa-tasks"></i>
+                            </div>
+                            <p>Incident & Problem Management (ITIL)</p>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <p>API & Database Issue Resolution</p>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <p>Monitoring & Observability Ownership</p>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <p>Release & Deployment Support</p>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <p>Root Cause Analysis & RCA Reports</p>
+                        </div>
+                        <div class="summary-item">
+                            <div class="summary-icon">
+                                <i class="fas fa-ticket-alt"></i>
+                            </div>
+                            <p>ServiceNow / Jira Ticket Management</p>
+                        </div>
+                    </div>
+                    <div class="domain-expertise">
+                        <h3><i class="fas fa-industry"></i> Domain Expertise</h3>
+                        <p>Healthcare and Financial industry compliance knowledge (HIPAA, PCI-DSS)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Visualization -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Technical <span class="neon-text">Skills</span></h2>
+            <div class="skills-container">
+                <div class="skills-bars">
+                    <div class="skill-category">
+                        <h3>Core Competencies</h3>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>AWS Cloud & Monitoring</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Production & Application Support</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar-fill" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Incident & Problem Management</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar-fill" data-width="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>DevOps & CI/CD</span>
+                                <span>76%</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar-fill" data-width="76"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Linux & Server Operations</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>API Troubleshooting</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar-fill" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Cyber Security</span>
+                                <span>79%</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar-fill" data-width="79"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Generative AI & Automation</span>
+                                <span>72%</span>
+                            </div>
+                            <div class="bar-container">
+                                <div class="bar-fill" data-width="72"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Cloud</h3>
+                        <p>AWS EC2, S3, EBS, EKS, RDS, CloudWatch</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h3>Operating Systems</h3>
+                        <p>Linux, RHEL, Ubuntu</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-chart-area"></i>
+                        </div>
+                        <h3>Monitoring</h3>
+                        <p>Grafana, Dynatrace, Kibana, CloudWatch, PagerDuty</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <h3>Containers</h3>
+                        <p>Docker, Kubernetes (EKS)</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>APIs</h3>
+                        <p>REST APIs, HTTP, Postman</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>CI/CD</h3>
+                        <p>Jenkins</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Database</h3>
+                        <p>SQL, RDS, MySQL</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Networking</h3>
+                        <p>TCP/IP, DNS, HTTPS, SSL</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>ITSM</h3>
+                        <p>ServiceNow, Jira, Confluence</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Security</h3>
+                        <p>HIPAA, PCI DSS, Security Analysis</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI & Automation</h3>
+                        <p>Generative AI Research, AI Automation</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3>Processes</h3>
+                        <p>ITIL, Incident Management, RCA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title">Work <span class="neon-text">Experience</span></h2>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 – Present</div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Production Support Engineer</h3>
+                            <h4 class="timeline-company">HCA Healthcare</h4>
+                        </div>
+                        <div class="timeline-subtitle">Healthcare Payments (Web + Mobile)</div>
+                        <ul class="timeline-list">
+                            <li>L2 application production support ensuring 99.9% uptime</li>
+                            <li>P1/P2 incident response with 15-minute SLA adherence</li>
+                            <li>Detailed RCA reporting for continuous improvement</li>
+                            <li>SQL & RDS data validation and query optimization</li>
+                            <li>HIPAA & PCI DSS compliance awareness and adherence</li>
+                            <li>SOP & Runbook creation for operational excellence</li>
+                            <li>Web & mobile payment platform stability management</li>
+                            <li>Comprehensive monitoring with CloudWatch, Grafana, Dynatrace, Kibana</li>
+                            <li>Payment transaction troubleshooting and validation</li>
+                            <li>EC2 / EKS / Docker container debugging and resolution</li>
+                            <li>Deployment validation and rollback procedures</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">AWS</span>
+                            <span class="tag">Healthcare</span>
+                            <span class="tag">Monitoring</span>
+                            <span class="tag">Incident Management</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 – Present</div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Project Engineer (Production Support)</h3>
+                            <h4 class="timeline-company">Wipro — Client USAA</h4>
+                        </div>
+                        <div class="timeline-subtitle">Financial Services Platform</div>
+                        <ul class="timeline-list">
+                            <li>L2 production support for critical financial systems</li>
+                            <li>ServiceNow / Jira based workflow and ticket management</li>
+                            <li>REST API debugging and integration troubleshooting</li>
+                            <li>SQL investigation for data-related incidents</li>
+                            <li>Docker / Kubernetes troubleshooting in EKS environment</li>
+                            <li>Linux server troubleshooting and performance optimization</li>
+                            <li>Monitoring alert analysis and proactive issue resolution</li>
+                            <li>Jenkins deployment validation and pipeline support</li>
+                            <li>RCA reporting and preventive action implementation</li>
+                            <li>Change Management support and implementation</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Financial</span>
+                            <span class="tag">ServiceNow</span>
+                            <span class="tag">Linux</span>
+                            <span class="tag">Kubernetes</span>
+                            <span class="tag">Jenkins</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content glass-card">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-details">
+                    <h3 class="education-degree">B.Tech - Computer Science Engineering</h3>
+                    <h4 class="education-institute">K.S.R.M College of Engineering</h4>
+                    <div class="education-year">Class of 2022</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Let's <span class="neon-text">Connect</span></h2>
+            <p class="contact-subtitle">I'm always open to discussing new opportunities, interesting projects, or ways to collaborate. Feel free to reach out through any of the platforms below.</p>
+            
+            <div class="contact-container">
+                <div class="contact-social">
+                    <h3>Get In Touch</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/posaakhil" target="_blank" class="social-link">
+                            <div class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/posavenkataakhil" target="_blank" class="social-link">
+                            <div class="social-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://posaakhil.github.io" target="_blank" class="social-link">
+                            <div class="social-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <span>Portfolio</span>
+                        </a>
+                        <a href="https://medium.com/@posavenkataakhil123" target="_blank" class="social-link">
+                            <div class="social-icon">
+                                <i class="fab fa-medium"></i>
+                            </div>
+                            <span>Medium</span>
+                        </a>
+                        <a href="mailto:pvakhil12@gmail.com" class="social-link">
+                            <div class="social-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                    <a href="#" class="btn btn-primary download-btn">
+                        <i class="fas fa-download"></i> DOWNLOAD RESUME
+                    </a>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Address" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-btn">
+                            <span>SEND MESSAGE</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2026 Posa Venkata Akhil. All rights reserved.</p>
+            <p class="footer-subtext">Built with passion for reliable systems and continuous learning.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
