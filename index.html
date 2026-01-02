@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Posa Venkata Akhil — Production Support Engineer</title>
+
+  <!-- Google Fonts: Orbitron (futuristic) + Inter (clean) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+  <meta name="description" content="Posa Venkata Akhil — L2 Production & Application Support Engineer. AWS, Monitoring, DevOps support for Healthcare & Financial systems." />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+
+  <!-- Loading overlay -->
+  <div id="loading">
+    <div class="loader">
+      <svg width="110" height="110" viewBox="0 0 100 100">
+        <defs>
+          <linearGradient id="g" x1="0" x2="1">
+            <stop offset="0" stop-color="#00f0ff"/>
+            <stop offset="1" stop-color="#b400ff"/>
+          </linearGradient>
+        </defs>
+        <circle cx="50" cy="50" r="40" stroke="url(#g)" stroke-width="6" stroke-linecap="round" fill="none" stroke-dasharray="62 188"/>
+      </svg>
+      <p>Booting Scalpulx UI...</p>
+    </div>
+  </div>
+
+  <!-- Particle background canvas -->
+  <canvas id="particles" class="bg-canvas"></canvas>
+
+  <!-- Sticky navbar -->
+  <header id="header" class="nav-glass">
+    <nav class="nav container">
+      <a href="#" class="brand">
+        <span class="logo-blob"></span>
+        <span class="brand-text">Akhil</span>
+      </a>
+
+      <button id="nav-toggle" aria-label="Toggle navigation" class="nav-toggle">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#summary" class="nav-link">Summary</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero container">
+      <div class="hero-grid">
+        <div class="hero-left glass neon-card">
+          <div class="badge-row">
+            <span class="badge glow">3+ Years Experience</span>
+            <span class="badge glass">Healthcare + Financial Domains</span>
+          </div>
+
+          <h1 class="name glow">Posa Venkata Akhil</h1>
+
+          <div class="roles">
+            <span class="role-label">I am a</span>
+            <span id="role-rotator" class="role-rotator"></span>
+          </div>
+
+          <p class="tagline">
+            Ensuring high-availability, secure, reliable and mission-critical cloud environments.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#contact">Hire Me</a>
+            <a class="btn outline" href="resume.pdf" download>View Resume</a>
+          </div>
+
+          <div class="social-row">
+            <a class="icon-link" href="https://www.linkedin.com/in/posavenkataakhil" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#00f0ff" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.792-1.75-1.767 0-.975.784-1.768 1.75-1.768s1.75.793 1.75 1.768c0 .975-.784 1.767-1.75 1.767zm13.5 12.268h-3v-5.604c0-1.337-.026-3.059-1.865-3.059-1.866 0-2.152 1.459-2.152 2.969v5.694h-3v-11h2.879v1.504h.041c.401-.758 1.379-1.559 2.841-1.559 3.039 0 3.601 2.001 3.601 4.6v6.455z"/></svg>
+            </a>
+            <a class="icon-link" href="https://github.com/posaakhil" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#b400ff" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.724-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.744.084-.729.084-.729 1.205.084 1.839 1.238 1.839 1.238 1.07 1.832 2.809 1.303 3.495.997.108-.775.418-1.303.762-1.602-2.665-.303-5.467-1.333-5.467-5.931 0-1.312.469-2.381 1.236-3.222-.123-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.984-.399 3.003-.404 1.019.005 2.046.138 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.241 2.874.118 3.176.77.841 1.235 1.91 1.235 3.222 0 4.61-2.807 5.625-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.218.694.825.576 4.765-1.589 8.199-6.086 8.199-11.387 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-right neon-panel glass">
+          <!-- Futuristic shapes -->
+          <div class="glow-shapes">
+            <svg class="shape a" viewBox="0 0 200 200"><defs><linearGradient id="la" x1="0" x2="1"><stop offset="0" stop-color="#00f0ff" stop-opacity="0.9"/><stop offset="1" stop-color="#b400ff" stop-opacity="0.9"/></linearGradient></defs><path d="M49,-19C64.9,0.5,77.3,22.5,70.1,37.8C62.9,53.1,36.2,61.8,15,56.6C-6.1,51.5-21.7,32.4-31.1,12.8C-40.6-6.8-43.8-26.9-32-35.1C-20.2-43.4,1.4-39.7,21.5-34.2C41.6-28.8,65.1-39.4,49-19Z" transform="translate(100 100)" fill="url(#la)"/></svg>
+            <div class="grid-overlay"></div>
+
+            <div class="panel-info">
+              <h3 class="panel-title">Cloud Health</h3>
+              <p>Realtime observability • Uptime • RCA</p>
+              <div class="mini-metrics">
+                <div><strong>99.98%</strong><span>Uptime</span></div>
+                <div><strong>Avg MTTR</strong><span>18 mins</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-decor">
+        <div class="grid-lines"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <p class="muted">Confident. Professional. Modern IT Engineer.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass neon-card about-left">
+          <h3>Who am I?</h3>
+          <p>
+            I am a Production & Application Support Engineer with 3+ years of hands-on experience supporting mission-critical systems in Healthcare and Financial domains.
+            I focus on reliability, uptime, and incident prevention — leveraging strong AWS & cloud troubleshooting skills, monitoring platforms, and collaborative incident response.
+          </p>
+
+          <ul class="about-list">
+            <li>Strong AWS & cloud troubleshooting background</li>
+            <li>Monitoring & Observability ownership (CloudWatch, Grafana, Dynatrace)</li>
+            <li>Collaboration with Dev / QA / DevOps teams</li>
+            <li>RCA mindset & incident prevention</li>
+          </ul>
+
+          <div class="btn-row">
+            <a class="btn primary" href="#contact">Contact</a>
+            <a class="btn outline" href="#experience">Experience</a>
+          </div>
+        </div>
+
+        <div class="glass neon-card about-right">
+          <h3>Quick Facts</h3>
+          <div class="facts-grid">
+            <div><span>Location</span><strong>India</strong></div>
+            <div><span>Experience</span><strong>3+ Years</strong></div>
+            <div><span>Domains</span><strong>Healthcare, Financial</strong></div>
+            <div><span>Focus</span><strong>Reliability, Uptime, RCA</strong></div>
+          </div>
+
+          <div class="contact-quick">
+            <a class="contact-card" href="mailto:pvakhil12@gmail.com">
+              <svg viewBox="0 0 24 24"><path fill="#00f0ff" d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              <span>pvakhil12@gmail.com</span>
+            </a>
+            <a class="contact-card" href="https://posaakhil.github.io" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24"><path fill="#b400ff" d="M12 2L2 7v7c0 5 4 8 10 8s10-3 10-8V7l-10-5z"/></svg>
+              <span>posaakhil.github.io</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container">
+      <div class="section-header">
+        <h2>Skills & Visualization</h2>
+        <p class="muted">Animated charts that reveal expertise & readiness.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="glass neon-card skills-left">
+          <h3>Skill Categories</h3>
+          <ul class="skill-list">
+            <li>AWS Cloud & Monitoring</li>
+            <li>Production & Application Support</li>
+            <li>Incident & Problem Management (ITIL)</li>
+            <li>DevOps & CI/CD</li>
+            <li>Linux & Server Operations</li>
+            <li>API Troubleshooting</li>
+            <li>Cyber Security</li>
+            <li>Generative AI & Automation</li>
+          </ul>
+        </div>
+
+        <div class="glass neon-card skills-right" id="visualization">
+          <div class="charts">
+            <canvas id="barChart" width="600" height="220" aria-label="Skill bar chart"></canvas>
+            <div class="donuts">
+              <canvas id="donut1" width="160" height="160" aria-label="AWS donut"></canvas>
+              <canvas id="donut2" width="160" height="160" aria-label="Monitoring donut"></canvas>
+              <canvas id="donut3" width="160" height="160" aria-label="DevOps donut"></canvas>
+            </div>
+
+            <div class="progress-bars">
+              <div class="pbar">
+                <label>AWS & Cloud</label>
+                <div class="track"><div class="fill" data-value="90"></div></div>
+              </div>
+              <div class="pbar">
+                <label>Monitoring & Observability</label>
+                <div class="track"><div class="fill" data-value="85"></div></div>
+              </div>
+              <div class="pbar">
+                <label>Incident Management (ITIL)</label>
+                <div class="track"><div class="fill" data-value="88"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL SUMMARY -->
+    <section id="summary" class="section container">
+      <div class="section-header">
+        <h2>Professional Summary</h2>
+      </div>
+
+      <div class="glass neon-card summary-card">
+        <ul class="summary-list">
+          <li>L2 Production Support Engineer</li>
+          <li>AWS Cloud Infrastructure Troubleshooting</li>
+          <li>Incident & Problem Management (ITIL)</li>
+          <li>API & Database Issue Resolution</li>
+          <li>Monitoring & Observability Ownership</li>
+          <li>Release & Deployment Support</li>
+          <li>Root Cause Analysis & RCA Reports</li>
+          <li>ServiceNow / Jira ticket management</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS -->
+    <section id="technical" class="section container">
+      <div class="section-header">
+        <h2>Technical Skills</h2>
+        <p class="muted">Icons & cards — categorized for clarity.</p>
+      </div>
+
+      <div class="tech-grid">
+        <!-- Each card uses SVG icons and animated hover glow -->
+        <div class="tech-card glass neon-card">
+          <div class="icon">☁️</div>
+          <h4>Cloud</h4>
+          <p>AWS (EC2, S3, EBS, EKS, RDS, CloudWatch)</p>
+        </div>
+
+        <div class="tech-card glass neon-card">
+          <div class="icon">📊</div>
+          <h4>Monitoring</h4>
+          <p>Grafana, Dynatrace, Kibana, CloudWatch, PagerDuty</p>
+        </div>
+
+        <div class="tech-card glass neon-card">
+          <div class="icon">🐳</div>
+          <h4>Containers</h4>
+          <p>Docker, Kubernetes (EKS)</p>
+        </div>
+
+        <div class="tech-card glass neon-card">
+          <div class="icon">🔁</div>
+          <h4>CI/CD</h4>
+          <p>Jenkins</p>
+        </div>
+
+        <div class="tech-card glass neon-card">
+          <div class="icon">🐧</div>
+          <h4>OS</h4>
+          <p>Linux</p>
+        </div>
+
+        <div class="tech-card glass neon-card">
+          <div class="icon">🛠️</div>
+          <h4>ITSM</h4>
+          <p>ServiceNow, Jira, Confluence</p>
+        </div>
+
+        <div class="tech-card glass neon-card">
+          <div class="icon">🔗</div>
+          <h4>APIs</h4>
+          <p>REST APIs, HTTP, Postman</p>
+        </div>
+
+        <div class="tech-card glass neon-card">
+          <div class="icon">💾</div>
+          <h4>DB</h4>
+          <p>SQL, RDS</p>
+        </div>
+
+        <div class="tech-card glass neon-card highlight">
+          <div class="icon">🔒</div>
+          <h4>Cyber Security</h4>
+          <p>Awareness & secure operations</p>
+        </div>
+
+        <div class="tech-card glass neon-card highlight">
+          <div class="icon">🤖</div>
+          <h4>Generative AI</h4>
+          <p>AI-powered automation & research</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE TIMELINE -->
+    <section id="experience" class="section container">
+      <div class="section-header">
+        <h2>Experience</h2>
+        <p class="muted">Production & support roles across healthcare & finance.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- Job 1 -->
+        <div class="timeline-item glass neon-card">
+          <div class="time">2025 – Present</div>
+          <div class="content">
+            <h3>Production Support Engineer <span>@ HCA Healthcare</span></h3>
+            <p class="project">Project: Healthcare Payments (Web + Mobile)</p>
+            <ul>
+              <li>L2 application production support</li>
+              <li>Web & mobile payment stability; P1/P2 incident response</li>
+              <li>Monitoring with CloudWatch / Grafana / Dynatrace / Kibana</li>
+              <li>RCA reporting; Payment transaction troubleshooting</li>
+              <li>SQL & RDS validation; EC2 / EKS / Docker debugging</li>
+              <li>HIPAA & PCI-DSS compliance awareness; SOP & Runbook creation</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item glass neon-card">
+          <div class="time">2022 – Present</div>
+          <div class="content">
+            <h3>Project Engineer (Production Support) <span>@ Wipro — Client USAA</span></h3>
+            <ul>
+              <li>L2 production support for financial systems</li>
+              <li>Linux troubleshooting; ServiceNow / Jira workflow</li>
+              <li>Monitoring alert analysis; REST API debugging</li>
+              <li>Jenkins deployment validation; SQL investigation</li>
+              <li>RCA reporting; Docker / Kubernetes troubleshooting</li>
+              <li>Change Management support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section container">
+      <div class="section-header">
+        <h2>Education</h2>
+      </div>
+
+      <div class="glass neon-card education-card">
+        <h3>B.Tech – Computer Science Engineering</h3>
+        <p>K.S.R.M College of Engineering — 2022</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p class="muted">Let's connect — I support mission-critical environments.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="glass neon-card contact-left">
+          <h3>Get in touch</h3>
+          <p class="muted">Open to Production Support, Cloud & DevOps support roles and collaborations.</p>
+
+          <div class="contact-links">
+            <a class="contact-pill" href="https://github.com/posaakhil" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24"><path fill="#b400ff" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.724-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.744.084-.729.084-.729 1.205.084 1.839 1.238 1.839 1.238 1.07 1.832 2.809 1.303 3.495.997.108-.775.418-1.303.762-1.602-2.665-.303-5.467-1.333-5.467-5.931 0-1.312.469-2.381 1.236-3.222-.123-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.984-.399 3.003-.404 1.019.005 2.046.138 3.003.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.241 2.874.118 3.176.77.841 1.235 1.91 1.235 3.222 0 4.61-2.807 5.625-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.218.694.825.576 4.765-1.589 8.199-6.086 8.199-11.387 0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+
+            <a class="contact-pill" href="https://www.linkedin.com/in/posavenkataakhil" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24"><path fill="#00f0ff" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.792-1.75-1.767 0-.975.784-1.768 1.75-1.768s1.75.793 1.75 1.768c0 .975-.784 1.767-1.75 1.767zm13.5 12.268h-3v-5.604c0-1.337-.026-3.059-1.865-3.059-1.866 0-2.152 1.459-2.152 2.969v5.694h-3v-11h2.879v1.504h.041c.401-.758 1.379-1.559 2.841-1.559 3.039 0 3.601 2.001 3.601 4.6v6.455z"/></svg>
+              LinkedIn
+            </a>
+
+            <a class="contact-pill" href="mailto:pvakhil12@gmail.com">
+              <svg viewBox="0 0 24 24"><path fill="#00f0ff" d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              Email Me
+            </a>
+
+            <a class="contact-pill" href="https://medium.com/@posavenkataakhil123" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24"><path fill="#b400ff" d="M2 6v12h20V6H2zm16.97 9.06c-.17.21-.44.34-.73.34-.1 0-.19-.01-.27-.04l-3.68-1.22-2.07 1.61c-.17.13-.38.2-.59.2-.1 0-.2-.01-.3-.04-.45-.13-.8-.5-.93-.95V7.29c0-.47.24-.9.63-1.13.5-.31 1.1-.25 1.55.14l2.49 2.19 3.11-2.69c.4-.34.94-.42 1.41-.22.47.2.77.64.77 1.15v8.36c0 .35-.13.69-.36.95z"/></svg>
+              Medium
+            </a>
+          </div>
+
+          <div class="resume-cta">
+            <a class="btn primary" href="resume.pdf" download>Download Resume</a>
+          </div>
+        </div>
+
+        <div class="glass neon-card contact-right">
+          <h3>Message</h3>
+          <form id="contact-form" class="contact-form" action="#" onsubmit="return false;">
+            <label>
+              <input type="text" id="name" placeholder="Your name" required>
+            </label>
+            <label>
+              <input type="email" id="email" placeholder="Email address" required>
+            </label>
+            <label>
+              <textarea id="message" rows="5" placeholder="Tell me about the opportunity..." required></textarea>
+            </label>
+            <div class="form-row">
+              <button type="submit" class="btn primary">Send Message</button>
+              <button type="reset" class="btn outline">Reset</button>
+            </div>
+            <p class="muted form-note">This form is static for demo. Replace action to wire backend or link mailto.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer container glass neon-card">
+      <div>
+        <strong>Posa Venkata Akhil</strong>
+        <p class="muted">L2 Production & Application Support Engineer — AWS, Monitoring, DevOps support</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/posaakhil" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/posavenkataakhil" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:pvakhil12@gmail.com">Email</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
